@@ -1,0 +1,169 @@
+\documentclass[DIV=calc, paper=a4, fontsize=11pt, twocolumn]{scrartcl}	 % A4 paper and 11pt font size
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{fix-cm}	 % Custom font sizes - used for the initial letter in the document
+
+\usepackage{sectsty} % Enables custom section titles
+\allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
+
+\usepackage{fancyhdr} % Needed to define custom headers/footers
+\pagestyle{fancy} % Enables the custom headers/footers
+\usepackage{lastpage} % Used to determine the number of pages in the document (for "Page X of Total")
+
+% Headers - all currently empty
+\lhead{}
+\chead{}
+\rhead{}
+
+% Footers
+\lfoot{}
+\cfoot{}
+\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}} % "Page 1 of 2"
+
+\renewcommand{\headrulewidth}{0.0pt} % No header rule
+\renewcommand{\footrulewidth}{0.4pt} % Thin footer rule
+
+\usepackage{lettrine} % Package to accentuate the first letter of the text
+\newcommand{\initial}[1]{ % Defines the command and style for the first letter
+\lettrine[lines=3,lhang=0.3,nindent=0em]{
+\color{DarkGoldenrod}
+{\textsf{#1}}}{}}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\usepackage{titling} % Allows custom title configuration
+
+\newcommand{\HorRule}{\color{DarkGoldenrod} \rule{\linewidth}{1pt}} % Defines the gold horizontal rule around the title
+
+\pretitle{\vspace{-30pt} \begin{flushleft} \HorRule \fontsize{50}{50} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont} % Horizontal rule before the title
+
+\title{Article Title} % Your article title
+
+\posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
+
+\preauthor{\begin{flushleft}\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkRed}} % Author font configuration
+
+\author{John Smith, } % Your name
+
+\postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} % Configuration for the institution name
+University of California % Your institution
+
+\par\end{flushleft}\HorRule} % Horizontal rule after the title
+
+\date{} % Add a date here if you would like one to appear underneath the title block
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+\thispagestyle{fancy} % Enabling the custom headers/footers for the first page 
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+% The first character should be within \initial{}
+\initial{H}\textbf{ere is some sample text to show the initial in the introductory paragraph of this template article. The color and lineheight of the initial can be modified in the preamble of this document.}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+%------------------------------------------------
+
+\section*{Petrophysical logs}
+To find hydrocarbons buried underneath the sea bed we can drill and study cores from drilling or we can use petrophysical logging. The latter is not only cheaper but gives information that cannot be found by drilling. The different logs are used by combining the results to deduce wether or not hydrocarbons are present .These logs are categorized into:
+\subsection*{Selfpotential}
+This log utilizes differences in electric potential. Giving information on shale boundaries which can give us information on the reservoir rock. It also gives us information on $\rho_w$ which helps us calculate the pore space occupied by the hydrocarbons. The SP can give a constant value when the sand is clean and bed is thick. We then call it a static SP. This is used to determine the resistivity  $\rho_w$, which we will talk about in the next section.
+\subsection*{Resistivity}
+The resistivity measures the pore space that is occupied by the water in the rock, which we call the water saturation. This value is used to find the saturation of hydrocarbons in a given rock formation. A rock saturated with hydrocarbons will typically have a high SP and high resistivity.
+\subsection*{Radioactivity}
+As the name indicates this log uses radioactivity in the rock to determine the rock type. Where shale rocks have a high radioactivity, and coal has low radioactivity. This log can also be used to monitor the cement, by injecting radioactive material into the cement. The rock is identified through the radioactivity log by looking at the density and porosity of a given rock formation. The radioactivity reader is usually held against the side of the dug hole with to detectors so to get an accurate reading.
+\subsection*{Neutron}
+This logging type is similar to that of radioactive logging, only that it utilizes the effects of neutrons. The neutrons are sent into the rock and clashes with atoms causing $\gamma$ rays to sent back and read. The stronger the signal the more hydrogen is present. Which is an integral part in both water and hydrocarbons. This log is therefore used to measure the porosity in which the hydrocarbons reside.
+\subsection*{Sonic}
+This logs the variation of acoustic sound waves sent down and reflected, which is also known as seismic. The different times at which these waves return determines the porosity, which again can tells us something about the rock.
+
+\section*{Free water level and oil water contact }
+Since water, oil and gas have different density the will tend to layer on top each other. With gas being the lightest and water being the heaviest.
+The free water level is the highest level in which the pressure of the hydrocarbons is the same as the water. Or where the water saturation is 100\%. The oil water contact is the lowest point where oil occurs. These contact points are not very sharp, and usually gradual over several feet. The boundaries can be determined by studying pressure gradients. Its obviously import to discover where the oil starts and where oil and water contact. Since we want to produce mainly hydrocarbons and not water.
+
+\section*{Resource and Reserves}
+The resource of a field is all estimated quantities of hydrocarbons under the surface as well as produced hydrocarbons. The reserves are the proven actual amount of hydrocarbons that can be produced within a certain field. So the reserve is within the resource. The reserves can expand as economical or other factors change. Such like when a company abandons a oil field because its not longer economically viable for them, it may change for another company at another time.
+\section*{STOOIP and GIIP}
+STOOIP stand for standard tank original oil in place. This acronym stands for all the oil in a reservoir before production starts. GIIP is the same just for gas.
+Good job seb!
+
+
+\begin{itemize}
+\item First item in a list 
+\item Second item in a list 
+\item Third item in a list
+\end{itemize}
+
+
+
+%------------------------------------------------
+
+\subsection*{Subsection 2}
+
+
+
+\begin{table}
+\caption{Random table}
+\centering
+\begin{tabular}{llr}
+\toprule
+\multicolumn{2}{c}{Name} \\
+\cmidrule(r){1-2}
+First name & Last Name & Grade \\
+\midrule
+John & Doe & $7.5$ \\
+Richard & Miles & $2$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%------------------------------------------------
+
+\section*{Section 2}
+
+\lipsum[8] % Dummy text
+
+\begin{description}
+\item[First] This is the first item
+\item[Last] This is the last item
+\end{description}
+
+\lipsum[9] % Dummy text
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+\bibitem[Cambridge, 2000]{}
+Musset, Khan (2000).
+\newblock Looking into the earth
+\newblock {\em Subsurface Geophysics }, 18:285--305.
+ 
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
