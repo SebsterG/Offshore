@@ -1,0 +1,20 @@
+
+
+- Load out
+	- Lifting from shore to vessel
+	- Plan the deck space
+- Transportation
+	- Determine maximum sea state
+	- Proper fastening
+	- Check damages
+	- Deck tilt at sea
+- Lifting from deck
+	- Test lowering on shore
+	- Pendulum oscilations may occur due to waves or a shift of high amounts of weight. Dynamic forces
+- Splash , lowering into water
+	- When the module is lowered into the water, and the crane/boat moves, high amounts of stress can be induced
+	- Water has to fill the "air gaps", and this has to be done slowely
+- Further lowering
+	- For deep lowering, wire weight may be an issue.
+	- Calculate sufficient height above sea floor for dropping anchor
+- Landing
