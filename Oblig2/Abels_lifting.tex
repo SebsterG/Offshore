@@ -110,7 +110,7 @@ I therefore strongly recommend that a short amount of time is used on a practice
 
 
 \subsection*{Transportation}
-The vessel we are using for transportation has been carefully calculated to withstand the force of 800 tons of steel. The vessel will also be searched for cracks and other damages, to ensure the safety of crew and gear. The torpedoes will be layed down side by side and strapped to the deck. Since they are laying down on the deck, the vessel will more or less stable and can endure quite a bit of weather. But when we are to lift out and drop the torpedoes the vessel will be more unstable and a maximum wind profile cannot be overdone. We will use a weather simulating program, and a worst case scenario will be evaluated. . We therefore need to plan in accordance with the weather forecasts when the operation will take place. 
+The vessel we are using for transportation has been carefully calculated to withstand the force of 800 tons of steel. The vessel will also be searched for cracks and other damages, to ensure the safety of crew and gear. The torpedoes will be layed down side by side, and some on top of each other and strapped to the deck with chain and hooks. Since they are laying down on the deck, the vessel will more or less stable and can endure quite a bit of weather. But when we are to lift out and drop the torpedoes the vessel will be more unstable and a maximum wind profile cannot be overdone. We will use a weather simulating program, and a worst case scenario will be evaluated. We therefore need to plan in accordance with the weather forecasts when the operation will take place. 
 \subsection*{Lifting from deck}
 \begin{figure}[h]
 \includegraphics[width=9cm,height=9cm]{Triplex_MDH_140.jpg}
@@ -124,13 +124,13 @@ This vessel allows us to deliver the torpedoes with the 'pointy end' down in the
 \newline 
 Usually when installing something on the sea floor we want a smooth landing. But in our case we want just the opposite. 
 If released 300 m from the ocean floor the torpedo will reach terminal velocity:
-\begin{align}
+\begin{align*}
 F &= ma = -mg + \frac{1}{2} \rho C_D v^2 S \\
 &\text{The acceleration is zero} \\
 &\text{when we reach terminal velocity} \\
 v &= \sqrt{\frac{2 * 50 000 kg * 9.81 \frac{m}{s^2}}{1000\frac{kg}{m^3} * 0.2 * 1.5 m^2}} \\
 v &= 57.2 \frac{m}{s}
-\end{align}
+\end{align*}
 Since we want to drop the anchor as accurate as possible, and need only reach a speed of $50 m/s$. We should lower the anchor so the height above the sea floor is just enough to reach this speed. If we drop the anchors from topside they may drift off their intended landing position. 
 \newline
 \begin{figure}[t]
@@ -141,15 +141,15 @@ To calculate how far above the sea floor we need to be, to reach a speed of $50 
 We see from the plot that it takes $242.75 m$ for the anchor to reach its intended velocity. This means that we will lower the anchors down $50 m$ before dropping them. We drop the anchor a little bit before, $57.25 m$ , to ensure that we hit our intended velocity.
 \newline
 When we are lowering the anchor down with $50 m$ of wire. We might get wave induced resonance issues. The following calculates the resonance:
-\begin{align}
+\begin{align*}
 k =& \frac{EA}{L} = \frac{200 000 000 N}{50 m} = 4 000 000 N/m \\
 f =& \frac{1}{2\pi}\sqrt{\frac{k}{m}} \\
   =& \frac{1}{2\pi}\sqrt{\frac{4 000 000 N/m}{50 000 Kg }} \\
   =& 1.41 s^{-1}
-\end{align}
+\end{align*}
 We see that we get a resonance of $1.4 s^{-1}$ for $50$ m and higher for lower wire lengths. We do not anticipate ocean waves with a wave frequency of $1.4 s^{-1}$ or higher. But it could induce a problem. Since we do no have a antiheave on the winch.
 \newline
-If we were to encounter waves of this frequency we could just let out the chain that is going to hold the anchors, and drop the anchors from topside.  We may be a little inaccurate in hitting our intended target. But this will not be much of problem due to the nature of anchors. The chains can also be fastened or loosened if they are a bit off target.
+If we were to encounter waves of this frequency we could just let out the chain that is going to hold the anchors, and drop the anchors from topside.  We may be a little inaccurate in hitting our intended target. But this will not be much of problem due to the nature of anchors. The chains can always be fastened or loosened if they are a bit off target.
 \newline
 Since the we have a very strong wire and only are going down $50 m$, the weight of the wire will not be a problem at these heights.
 
