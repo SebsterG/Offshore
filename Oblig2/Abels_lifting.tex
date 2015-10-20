@@ -1,7 +1,7 @@
 
 
 \documentclass[DIV=calc, paper=a4, fontsize=13pt, twocolumn]{scrartcl}	 % A4 paper and 11pt font size
-
+\usepackage{listings}
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage[english]{babel} % English language/hyphenation
 \usepackage[protrusion=true,expansion=true]{microtype} % Better typography
@@ -53,7 +53,7 @@
 
 \pretitle{\vspace{-30pt} \begin{flushleft} \HorRule \fontsize{50}{50} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont} % Horizontal rule before the title
 
-\title{Abels lifting operations} % Your article title
+\title{Abels lifting operations} % Your article title 
 
 \posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
 
@@ -103,27 +103,27 @@ In this operation we need only a crane vessel, which will also serve as a transp
 \end{itemize}
 The crane will be used to load the torpedoes side by side parallel to the direction of travel. We will get 10 of the torpedoes on the floor of the deck. The additional 6 will be stacked with 3 on each side on top of the others. Leaving the middle with only one in height. This arrangement is done so to have a easy load out period. Where we start from the middle anchor and work our way out. 
 \newline
-The second part of the operation will be to practice the lift out from the vessel into the water. As this is a crucial part of the operation where many errors can occur. When we lift an anchor weighing 50 tons from the floor of a vessel and horizontally out to sea, the shift in the vessels balance may seriously be compromised. This fact and the dynamic forces of the waves and weather, will make this a delicate procedure. It is also good to check that the winch works as intended. 
+The second part of the operation will be to practice the lift out from the vessel into the water. As this is a crucial part of the operation where many errors can occur. When we lift an anchor weighing 50 tons from the floor of a vessel, the shift in the vessels balance may seriously be compromised. This fact and the dynamic forces of the waves and weather, will make this a delicate procedure. It is also good to check that the winch works as intended. 
 \newline
 I therefore strongly recommend that a short amount of time is used on a practice lift while the vessel is key-side. This will help us in knowing what to expect when we get out to sea. This could in worst case prevent loss of lives and or precious equipment.
 
 
 
 \subsection*{Transportation}
-The vessel we are using for transportation has been carefully calculated to withstand the force of 800 tons of steel. The vessel will also be searched for cracks and other damages, to ensure the safety of crew and gear. The torpedoes will be layed down side by side and strapped to the deck. Since they are laying down on the deck, the vessel will more or less stable and can endure quite a bit of weather. But when we are to lift out and drop the torpedoes the vessel will be more unstable and a maximum wind profile cannot be overdone. We will use a weather simulating program, and a worst case scenario will be evaluated. We therefore need to plan in accordance with the weather forecasts when the operation will take place. 
+The vessel we are using for transportation has been carefully calculated to withstand the force of 800 tons of steel. The vessel will also be searched for cracks and other damages, to ensure the safety of crew and gear. The torpedoes will be layed down side by side and strapped to the deck. Since they are laying down on the deck, the vessel will more or less stable and can endure quite a bit of weather. But when we are to lift out and drop the torpedoes the vessel will be more unstable and a maximum wind profile cannot be overdone. We will use a weather simulating program, and a worst case scenario will be evaluated. . We therefore need to plan in accordance with the weather forecasts when the operation will take place. 
 \subsection*{Lifting from deck}
 \begin{figure}[h]
 \includegraphics[width=9cm,height=9cm]{Triplex_MDH_140.jpg}
 \end{figure}
-Since we practiced this part at key side. We have hopefully gained some knowledge and skill. As we see in the picture the torpedoes are laying side by side with front and back facing forward and aft. The crane will pick them up starting in the middle and working outward. The boat is put in position (by GPS) and the torpedoes are hooked up to the winch in the front part of the deck. The crane pulls the torpedo all the way back, and then the winch lets the torpedoes slide out the back. At this point where the torpedoes are in the water, we can only tolerate so much weather. Because the stresses on the wires that holds the torpedoes will become big if the boat starts moving too much. Since the torpedoes have to move the surrounding water. In our case the water depth is not that high and we will drop the torpedoes not far under water surface. So resonance in the wire will not be much of a problem. 
+Since we practiced this part at key side. We have hopefully gained some knowledge and skill. As we see in the picture the torpedoes are laying side by side with front and back facing forward and aft. The crane will pick them up starting in the middle and working outward. The boat is put in position (by GPS) and the torpedoes are hooked up to the winch in the front part of the deck. The crane pulls the torpedo all the way back, and then the winch lets the torpedoes slide out the back. At this point where the torpedoes are in the water, we can only tolerate so much weather. Because the stresses on the wires that holds the torpedoes will become big if the boat starts moving too much. Since the torpedoes have to move the surrounding water. 
 \subsection*{Splash and drop}
 
-We now enter a critical face of the operation. When we introduce objects to the water we experience hydrodynamical effects. We will use a time domain analysis, to calculate the worst case effects. These effects will be determined mostly by the frequency and amplitude of the waves. In this operation we have a vessel with a very nice mechanism to deliver the torpedoes to the water. This means that we can handle some weather. Meaning we can save time and money by not having to wait for the perfect weather conditions.
+We now enter a critical face of the operation. When we introduce objects to the water we experience hydrodynamical forces. We will use a time domain analysis, to calculate the worst case effects. These effects will be determined mostly by the frequency and amplitude of the waves. In this operation we have a vessel with a very nice mechanism to deliver the torpedoes to the water. This means that we can handle some weather. Meaning we can save time and money by not having to wait for the perfect weather conditions.
 The winches will lower the torpedoes slowly into the water, as they will experience some buoyancy effects, so lowering slowly will assure a tight wire. A slow lowering will also ensure that all the trapped air inside the object will be filled with water and nothing broken. This is not a big deal since we are dealing with an all steel object. Since we will drop the torpedoes topside we will not have problems with the weight of the wire it self causing stress on the system. 
 This vessel allows us to deliver the torpedoes with the 'pointy end' down in the water. With the construction of the torpedoes this will ensure us that they hit the sea floor in the same fashion, and gets buried deep for a secure anchor fastening.
 \newline 
-Usually when installing something on the sea floor we want a smooth landing. But in our case we want just the opposite. The torpedoes will be dropped from topside to unsure a target velocity on the sea bed of $50 \frac{m}{s}$
-When released 300 m from the ocean floor the torpedo will reach terminal velocity:
+Usually when installing something on the sea floor we want a smooth landing. But in our case we want just the opposite. 
+If released 300 m from the ocean floor the torpedo will reach terminal velocity:
 \begin{align}
 F &= ma = -mg + \frac{1}{2} \rho C_D v^2 S \\
 &\text{The acceleration is zero} \\
@@ -134,9 +134,30 @@ v &= 57.2 \frac{m}{s}
 Since we want to drop the anchor as accurate as possible, and need only reach a speed of $50 m/s$. We should lower the anchor so the height above the sea floor is just enough to reach this speed. If we drop the anchors from topside they may drift off their intended landing position. 
 \newline
 \begin{figure}[t]
-\includegraphics[width=10cm,height=10cm]{velocity_plot.jpg}
+\includegraphics[width=10.5cm,height=10cm]{velocity_plot.jpg}
 \end{figure}
-To calculate how far above the sea floor we need to be, to reach a speed of $50 m/s $, I have made a short program that plots the velocity and calculates, using the Trapezoidal method, how far above the sea floor we need to be. 
+To calculate how far above the sea floor we need to be, to reach a speed of $50 m/s $, I have made a short program that plots the velocity and calculates, using the Trapezoidal method, how far above the sea floor we need to be. The code can be submitted if needed.
+\newline
+We see from the plot that it takes $242.75 m$ for the anchor to reach its intended velocity. This means that we will lower the anchors down $50 m$ before dropping them. We drop the anchor a little bit before, $57.25 m$ , to ensure that we hit our intended velocity.
+\newline
+When we are lowering the anchor down with $50 m$ of wire. We might get wave induced resonance issues. The following calculates the resonance:
+\begin{align}
+k =& \frac{EA}{L} = \frac{200 000 000 N}{50 m} = 4 000 000 N/m \\
+f =& \frac{1}{2\pi}\sqrt{\frac{k}{m}} \\
+  =& \frac{1}{2\pi}\sqrt{\frac{4 000 000 N/m}{50 000 Kg }} \\
+  =& 1.41 s^{-1}
+\end{align}
+We see that we get a resonance of $1.4 s^{-1}$ for $50$ m and higher for lower wire lengths. We do not anticipate ocean waves with a wave frequency of $1.4 s^{-1}$ or higher. But it could induce a problem. Since we do no have a antiheave on the winch.
+\newline
+If we were to encounter waves of this frequency we could just let out the chain that is going to hold the anchors, and drop the anchors from topside.  We may be a little inaccurate in hitting our intended target. But this will not be much of problem due to the nature of anchors. The chains can also be fastened or loosened if they are a bit off target.
+\newline
+Since the we have a very strong wire and only are going down $50 m$, the weight of the wire will not be a problem at these heights.
+
+\subsection*{Conclusion}
+This appendix has covered all the necessary steps to install 16 anchor torpedoes. From picking a boat, on loading and practice drop. To weather simulation to know our window of operation. And knowing when and how to drop the anchor so to ensure a secure anchor line.
+\newline 
+With a anchor specialized boat, a well planned operation and our expertise,
+our company can assure a safe installation of 16 anchor torpedoes with all the forementioned steps carefully executed. 
 
 
 
@@ -147,12 +168,7 @@ To calculate how far above the sea floor we need to be, to reach a speed of $50 
 
 
 
-
-\begin{description}
-\item[First] This is the first item
-\item[Last] This is the last item
-\end{description}
-
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
@@ -164,6 +180,8 @@ To calculate how far above the sea floor we need to be, to reach a speed of $50 
 \newblock http://www.triplex.no/site/view/mdh\_140\_ahts
  
 \end{thebibliography}
+
+
 
 
 %----------------------------------------------------------------------------------------

@@ -10,7 +10,6 @@ rho = 1000.0 #Kg/m^2
 C_D = 0.2 
 S = 1.5 #m^2
 
-#t = np.linspace(0,T,Nt+1)
 u = np.zeros(Nt+1)
 N = 0
 u[0] = 0
@@ -20,8 +19,8 @@ for n in range(Nt):
 		N = n
 		break
 t = np.linspace(0,T,Nt)		
-#print t[N]
 u_traps = u[1:N]
+
 fig = plt.figure()
 plt.plot(t[0:N+2],u[:N+2], "r")
 fig.suptitle('Velocity vs time of falling anchor', fontsize=14, fontweight='bold')
