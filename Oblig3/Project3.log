@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.10)  21 NOV 2015 17:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.10)  23 NOV 2015 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -539,10 +539,10 @@ Missing character: There is no … in font cmr12!
 File: Pressure_compressor.png Graphic file (type png)
 
 <use Pressure_compressor.png>
-Package pdftex.def Info: Pressure_compressor.png used on input line 128.
+Package pdftex.def Info: Pressure_compressor.png used on input line 127.
 (pdftex.def)             Requested size: 256.07591pt x 227.62453pt.
 
-Overfull \hbox (12.11427pt too wide) in paragraph at lines 128--129
+Overfull \hbox (12.11427pt too wide) in paragraph at lines 127--128
 [][] 
  []
 
@@ -550,20 +550,20 @@ Overfull \hbox (12.11427pt too wide) in paragraph at lines 128--129
 File: Temp1.png Graphic file (type png)
 
 <use Temp1.png>
-Package pdftex.def Info: Temp1.png used on input line 149.
+Package pdftex.def Info: Temp1.png used on input line 148.
 (pdftex.def)             Requested size: 256.07591pt x 241.85106pt.
  <temp2.png, id=21, 586.8324pt x 442.2924pt>
 File: temp2.png Graphic file (type png)
  <use temp2.png>
-Package pdftex.def Info: temp2.png used on input line 150.
+Package pdftex.def Info: temp2.png used on input line 149.
 (pdftex.def)             Requested size: 256.07591pt x 241.85106pt.
 
-Overfull \hbox (12.11427pt too wide) in paragraph at lines 149--151
+Overfull \hbox (12.11427pt too wide) in paragraph at lines 148--150
 [][]
  []
 
 
-Overfull \hbox (12.11427pt too wide) in paragraph at lines 149--151
+Overfull \hbox (12.11427pt too wide) in paragraph at lines 148--150
 [] 
  []
 
@@ -578,58 +578,75 @@ Underfull \vbox (badness 7522) has occurred while \output is active []
 File: Temp_insulated.png Graphic file (type png)
 
 <use Temp_insulated.png>
-Package pdftex.def Info: Temp_insulated.png used on input line 168.
+Package pdftex.def Info: Temp_insulated.png used on input line 171.
 (pdftex.def)             Requested size: 256.07591pt x 241.85106pt.
 
-Overfull \hbox (12.11427pt too wide) in paragraph at lines 168--169
-[][] 
- []
-
-<xmas_tree_diagram.png, id=28, 505.89pt x 369.18651pt>
-File: xmas_tree_diagram.png Graphic file (type png)
-
-<use xmas_tree_diagram.png>
-Package pdftex.def Info: xmas_tree_diagram.png used on input line 201.
-(pdftex.def)             Requested size: 256.07838pt x 241.85555pt.
-
-Overfull \hbox (12.11674pt too wide) in paragraph at lines 201--202
+Overfull \hbox (12.11427pt too wide) in paragraph at lines 171--172
 [][] 
  []
 
 [4 <./Temp_insulated.png>]
+<xmas_tree_diagram.png, id=32, 505.89pt x 369.18651pt>
+File: xmas_tree_diagram.png Graphic file (type png)
+
+<use xmas_tree_diagram.png>
+Package pdftex.def Info: xmas_tree_diagram.png used on input line 227.
+(pdftex.def)             Requested size: 256.07838pt x 241.85555pt.
+
+<Ocean_Flow_Subsea_Tree_002.JPG, id=33, 405.76593pt x 367.3725pt>
+File: Ocean_Flow_Subsea_Tree_002.JPG Graphic file (type jpg)
+
+<use Ocean_Flow_Subsea_Tree_002.JPG>
+Package pdftex.def Info: Ocean_Flow_Subsea_Tree_002.JPG used on input line 228.
+
+(pdftex.def)             Requested size: 256.07967pt x 241.85556pt.
+
+Overfull \hbox (12.11674pt too wide) in paragraph at lines 227--229
+[][]
+ []
+
+
+Overfull \hbox (12.11803pt too wide) in paragraph at lines 227--229
+[] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 232.
+               before end of `thebibliography' environment on input line 259.
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 230--232
+Underfull \hbox (badness 4899) in paragraph at lines 257--259
  \OT1/cmr/m/n/12 (+20) http://www.croftsystems.net/blog/the-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--232
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
 \OT1/cmr/m/n/12 (+20) difference-between-a-wellhead-christmas-
  []
 
 
 AED: lastpage setting LastPage
-[5 <./xmas_tree_diagram.png>] (./Project3.aux)
+[6
+
+ <./xmas_tree_diagram.png> <./Ocean_Flow_Subsea_Tree_002.JPG>]
+(./Project3.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 9376 strings out of 495028
- 145952 string characters out of 6181497
- 382493 words of memory out of 5000000
- 12381 multiletter control sequences out of 15000+600000
- 17191 words of font info for 69 fonts, out of 8000000 for 9000
+ 9394 strings out of 495028
+ 146211 string characters out of 6181497
+ 383493 words of memory out of 5000000
+ 12385 multiletter control sequences out of 15000+600000
+ 17485 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,11n,47p,474b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,47p,515b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
@@ -637,10 +654,10 @@ onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
 vetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro
 8a.pfb>
-Output written on Project3.pdf (5 pages, 327537 bytes).
+Output written on Project3.pdf (6 pages, 372577 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13343 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 13348 words of extra memory for PDF output out of 14400 (max. 10000000)
 

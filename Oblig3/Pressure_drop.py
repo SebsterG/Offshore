@@ -46,13 +46,13 @@ def constant(x):
 	return 50
 const = np.linspace(1,30,31)
 const[:] = 50
-P_start = 360 + 50
+P_start = 360 
 i = 0
 p2 = P_start
 while p2 > 20:
 	i += 1
 	del_p1 = pressure_calculator_1(P=P_start,D=d1,u=2,h=h1,l=l1)/10**6
-	p1 = P_start - del_p1
+	p1 = P_start - del_p1 + 50
 	pressure_array[i-1] = p1
 	del_p2 = pressure_calculator_1(P=p1,D=d2,u=2,h=h2,l=l2)/10**6
 	p2 = p1 - del_p2
