@@ -121,13 +121,13 @@ If we choose to install a compressor subsea, we will run into these problems:
 \begin{itemize}
 \item Slugging, a problem of slugging can occur when we have multiphase flow coming from the well. These changes in pressure and force can seriously damage equipment. To tackle this problem we can install a separator which separates the water from the gas and oil. This gives us a simpler flow with less slugging.
 \item Droplets, even though we have a separator we can get droplets in the gas. When we use a compressor on a fluid which have droplets(with some incompressible parts) the stress on the equipment can become large, and destroy precious gear. Droplets can also lead to a reduction in the effectiveness of the compressor. This problem can be solved by installing a scrubber before the compressor, which takes out some of the liquid.
-\item Deposits, another problem is chemical deposits which are in the flow. Which under compression will in similar fashion to droplets can destroy equipment. We can solve this by adding chemicals in the flow to dissolve these deposits into liquid or gas. This will ease the stress on the equipment
+\item Deposits, another problem is chemical deposits which are in the flow. Which under compression will in similar fashion to droplets can destroy equipment. We can solve this by adding chemicals in the flow to dissolve these deposits into liquid or gas. This will ease the stress on the equipment.
 \end{itemize}
 
 \subsection*{g)}
 Installing a compressor subsea is a difficult task but will ultimately bring many benefits:
 \begin{itemize}
-\item Placing the compressor closer to the well will make i more effective. This can give the well a longer life and better production. With a subsea compressor it is also possible to transport the hydrocarbons longer.
+\item Placing the compressor closer to the well will make it more effective. This can give the well a longer life and better production. With a subsea compressor it is also possible to transport the hydrocarbons farther.
 \item Installing anything subsea is always a very difficult task. Just getting electricity down many thousands of meters can be a difficult task. Though it will use less electricity than a topside compressor. Maintenance also becomes a problem subsea. It has to be done by an ROV. While maintenance is much easier onshore.
 \item Placing compressors on the seabed is a new invention. The Åsgard field by Statoil will be the first to have it. This makes it an unsafe investment, and could have many problems. Making it possibly unreliable.
 \end{itemize}
@@ -137,7 +137,7 @@ Installing a compressor subsea is a difficult task but will ultimately bring man
 \begin{figure}[h]
 \includegraphics[width=9cm,height=8cm]{Pressure_compressor.png}
 \end{figure}
-We can see from the figure when we have a compressor with an extra 50 bar from the start we can extend the production by 3-4 years. Installing the compressor from the start will give us more production and it also will not give us any down time if we have to install the compressor at a later stage in the production. Installing from start with all the
+We can see from the figure when we have a compressor with an extra 50 bar from the start we can extend the production by 3-4 years. Installing the compressor from the start will give us more production and it also will not give us any down time if we have to install the compressor at a later stage in the production. Installing from start with all the rest of the equipment could be easier and more cost effective.
 \newline
 One could argue that installing a compressor from the start would give a higher production in the first years and than production could be stopped at an earlier stage. Simply because all of the hydrocarbons have been produced. The line in the graph of production vs years would be higher and shorter so to speak.
 
@@ -148,8 +148,10 @@ Issues in the flow will be:
 \item Slugs
 \item Hydrates
 \item Wax
+\item Vibration
 \end{itemize}
-In the next sections i will calculate and give ways of tackling these problems
+Since we have a high GOR there will not be a large problem with slugging. The problem of Vibration is tackled in part 5.
+In the next sections i will calculate and give ways of tackling problems of hydrates and wax:
 \subsection*{a)}
 To calculate the temperature 
 I have used equation (57) and not (58) to calculate the temperature drop, since the pressure is constant from reservoir to well and from well to onshore.
@@ -160,7 +162,7 @@ In the figures we see the temperatures from the reservoir to the well and from t
 \end{figure}
 \subsection*{b)}
 As we see from the first figure, that we will have high enough temperatures from reservoir to well. But in the second figure, we see that between 1000-2000 m, in the flowline, we hit temperatures low enough so that hydrates will form. 
-The hydrates can be dealt with be adding chemicals to the flow, to stop the hydrates from forming. We can add chemicals like methanol(MeOH or MEG). 
+The hydrates can be dealt with by adding chemicals to the flow, to stop the hydrates from forming. We can add chemicals like methanol(MeOH or MEG). 
 \newline
 If we have a subsea compressor, this will increase the temperature, and will hopefully prevent hydrates from forming. 
 \newline
@@ -168,6 +170,8 @@ The hydrates can be prevented from happening if we can avoid low temperatures. T
 \subsection*{c)}
 In the flowline we will hit temperatures and pressures under WAT. So that wax will form in the flowline. When wax starts to form and the circumference of the line begins to lessen, giving us less fluid flux and therefore less production. We will need to pig the line. Where we start with a smaller pig and increasing the size, so to get all of the wax out from the line. It is also possible to use steam to remove the wax, though this is an expensive venture.
 Since we have a high GOR, the WAT can be manipulated through separation in the line.
+\newline
+
 \section*{3}
 Hydrates form in gas wells that have high pressure and low temperature, where natural gas and water is present
 The best way to make sure that we do not have hydrates forming. Is to make sure the temperature of the fluid is above the hydrate forming temperature. If a subsea compressor is installed this will give us higher temperatures, which will help in preventing hydrate formation.
@@ -185,6 +189,9 @@ We see in the figure that when we lower the heat transfer coefficient, which mea
 \newline
 This plot is just for the flowline, but i put a Uvalue of 1 in the well also. Though this is maybe a bit strange since isolating the well is not really necessary. The well from the reservoir is already a bit isolated from the ground.
 \subsection*{b)}
+\begin{figure}[h]
+\includegraphics[width=8cm,height=7.5cm]{phase_envelope.jpg}
+\end{figure}
 Picture of the phase envelope has been added. The points are of onshore pressure and temperature.
 \section*{5}
 In general vibrations are caused by rapid changes in pressure, which again is caused by changes in density. Since we assume constant density reservoir to well, vibration will not be a huge problem.
@@ -198,9 +205,9 @@ Vibrations may occur at connection spots. And with many connection points and co
 \subsection*{a)}
 \begin{itemize}
 \item First thing to consider when designing a subsea development, is to know what type of hydrocarbons will be produced. 
-\item Separation.  We will need to separate out the water and we can inject that water right back into the well to maintain pressure. And to not produce very expensive sea water. Which we cannot sell. This separation is also critical if we send the gas and the liquid to different places. In the case of mainly producing gas in the reservoir, the separation is important if we are to use compression.
+\item Separation.  We will need to separate out the water and we can inject that water right back into the well to maintain pressure. And to not produce very expensive sea water (Which we cannot sell). This separation is also critical if we send the gas and the liquid to different places. In the case of mainly producing gas in the reservoir, the separation is important if we are to use compression.
 \item Compression. Depending on the amount of GOR, the compressor needs to have liquid tolerance matching this ratio. Demanding a multiphase compressor. Depending also on how well we can separate the gas, we can use a compressor with low liquid tolerance. 
-\item Cooling. Depending on the temperature of the liquids from the well. The equipment may not tolerate high temperatures and temperature changes. So it may need to be cooled down. By changing the temperature we also change the density of the fluid. And can change the phases of the fluids.
+\item Cooling. Depending on the temperature of the liquids from the well. The equipment may not tolerate high temperatures and temperature changes. So it may need to be cooled down. By changing the temperature we also change the density of the fluid. And this can change the phases of the fluids.
 \item Power. All subsea processing needs power. The amount of power needed will be different for each system. Regardless the power lines need to be watertight. 
 \item Monitoring. Many parameters in the flow needs to be monitored. Including, pressure, temperature, sand detection and vibration.
 \end{itemize}
@@ -233,10 +240,7 @@ A subsea x-mas tree is the device that sits on top of the well head, where the h
 %----------------------------------------------------------------------------------------
 \newpage
 \begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
-
-
 \newblock http://www.croftsystems.net/blog/the-difference-between-a-wellhead-christmas-tree
- 
 \end{thebibliography}
 
 

@@ -21,7 +21,7 @@ def Re(P,u,D):
 	return rho(P)*u * D/ny
 def Temp(T_sea,T0,D,U,m,Cp,x):
 	return T_sea + (T0-T_sea)*np.exp(-np.pi*D*U*x/(m*Cp))
-"""
+
 T_sea = 7 +273
 T0 = 150 + 273
 U1 = 9
@@ -38,15 +38,19 @@ for i in m:
 	#ax.plot(x1,temp-273)
 	temp2 = Temp(T_sea=T_sea,T0=temp[-1],D=d2,U=U2,m=(i*2),Cp=Cp,x=x2)
 	ax.plot(x2,temp2-273)
-	print temp-273
+	#print temp-273
 
 ax.legend(["Q=%d " %(2*b) for b in m ])
+plt.title(" Temperature vs distance")
+plt.xlabel("Distance[meters]")
+plt.ylabel("Temperature[Celsius]")
 plt.show()
 
-"""
+
 """
 print 30/((0.73*360+0.123)*np.pi*(0.127**2)/4)
 print 60/((0.73*345+0.123)*np.pi*(0.305**2)/4)
+"""
 """
 def constant(x):
 	return 50
@@ -77,7 +81,7 @@ plt.title(" Pressure onshore vs time")
 plt.xlabel("Time[years]")
 plt.ylabel("Pressure[bar]")
 plt.show()
-
+"""
 
 
 

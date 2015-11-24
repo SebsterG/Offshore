@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.10)  24 NOV 2015 15:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.10)  24 NOV 2015 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,99 +566,110 @@ Overfull \hbox (12.11427pt too wide) in paragraph at lines 138--139
 File: Temp1.png Graphic file (type png)
 
 <use Temp1.png>
-Package pdftex.def Info: Temp1.png used on input line 158.
+Package pdftex.def Info: Temp1.png used on input line 160.
 (pdftex.def)             Requested size: 256.07591pt x 241.85106pt.
  <temp2.png, id=23, 586.8324pt x 442.2924pt>
 File: temp2.png Graphic file (type png)
  <use temp2.png>
-Package pdftex.def Info: temp2.png used on input line 159.
+Package pdftex.def Info: temp2.png used on input line 161.
 (pdftex.def)             Requested size: 256.07591pt x 241.85106pt.
 
-Overfull \hbox (12.11427pt too wide) in paragraph at lines 158--160
+Overfull \hbox (12.11427pt too wide) in paragraph at lines 160--162
 [][]
  []
 
 
-Overfull \hbox (12.11427pt too wide) in paragraph at lines 158--160
+Overfull \hbox (12.11427pt too wide) in paragraph at lines 160--162
 [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
+
+ []
+
 [3]
-Underfull \vbox (badness 7522) has occurred while \output is active []
+Underfull \vbox (badness 1708) has occurred while \output is active []
 
 
 <Temp_insulated.png, id=27, 586.8324pt x 442.2924pt>
 File: Temp_insulated.png Graphic file (type png)
  <use Temp_insulated.png>
-Package pdftex.def Info: Temp_insulated.png used on input line 181.
+Package pdftex.def Info: Temp_insulated.png used on input line 185.
 (pdftex.def)             Requested size: 256.07591pt x 241.85106pt.
 
-Overfull \hbox (12.11427pt too wide) in paragraph at lines 181--182
+Overfull \hbox (12.11427pt too wide) in paragraph at lines 185--186
 [][] 
  []
 
-[4 <./Temp1.png> <./temp2.png> <./Temp_insulated.png>] [5]
-<xmas_tree_diagram.png, id=37, 505.89pt x 369.18651pt>
+[4 <./Temp1.png> <./temp2.png> <./Temp_insulated.png>]
+<phase_envelope.jpg, id=34, 1140.26pt x 641.39626pt>
+File: phase_envelope.jpg Graphic file (type jpg)
+ <use phase_envelope.jpg>
+Package pdftex.def Info: phase_envelope.jpg used on input line 193.
+(pdftex.def)             Requested size: 227.61298pt x 213.39369pt.
+
+[5 <./phase_envelope.jpg>]
+<xmas_tree_diagram.png, id=38, 505.89pt x 369.18651pt>
 File: xmas_tree_diagram.png Graphic file (type png)
 
 <use xmas_tree_diagram.png>
-Package pdftex.def Info: xmas_tree_diagram.png used on input line 223.
+Package pdftex.def Info: xmas_tree_diagram.png used on input line 230.
 (pdftex.def)             Requested size: 256.07838pt x 241.85555pt.
 
-<Ocean_Flow_Subsea_Tree_002.JPG, id=38, 405.76593pt x 367.3725pt>
+<Ocean_Flow_Subsea_Tree_002.JPG, id=39, 405.76593pt x 367.3725pt>
 File: Ocean_Flow_Subsea_Tree_002.JPG Graphic file (type jpg)
 
 <use Ocean_Flow_Subsea_Tree_002.JPG>
-Package pdftex.def Info: Ocean_Flow_Subsea_Tree_002.JPG used on input line 224.
+Package pdftex.def Info: Ocean_Flow_Subsea_Tree_002.JPG used on input line 231.
 
 (pdftex.def)             Requested size: 256.07967pt x 241.85556pt.
 
-Overfull \hbox (12.11674pt too wide) in paragraph at lines 223--225
+Overfull \hbox (12.11674pt too wide) in paragraph at lines 230--232
 [][]
  []
 
 
-Overfull \hbox (12.11803pt too wide) in paragraph at lines 223--225
+Overfull \hbox (12.11803pt too wide) in paragraph at lines 230--232
 [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[6 <./xmas_tree_diagram.png> <./Ocean_Flow_Subsea_Tree_002.JPG>]
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 240.
+               before end of `thebibliography' environment on input line 244.
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 238--240
+Underfull \hbox (badness 4899) in paragraph at lines 243--244
  \OT1/cmr/m/n/12 (+20) http://www.croftsystems.net/blog/the-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 \OT1/cmr/m/n/12 (+20) difference-between-a-wellhead-christmas-
  []
 
 
 AED: lastpage setting LastPage
-[6 <./xmas_tree_diagram.png> <./Ocean_Flow_Subsea_Tree_002.JPG>]
-(./Project3.aux)
+[7
+
+] (./Project3.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 9477 strings out of 495028
- 147834 string characters out of 6181497
+ 9481 strings out of 495028
+ 147937 string characters out of 6181497
  383473 words of memory out of 5000000
- 12446 multiletter control sequences out of 15000+600000
- 21430 words of font info for 88 fonts, out of 8000000 for 9000
+ 12450 multiletter control sequences out of 15000+600000
+ 21381 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,11n,47p,515b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,47p,515b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
@@ -667,10 +678,10 @@ ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
 tic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Project3.pdf (6 pages, 391149 bytes).
+Output written on Project3.pdf (7 pages, 452493 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 14372 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 14377 words of extra memory for PDF output out of 14400 (max. 10000000)
 
