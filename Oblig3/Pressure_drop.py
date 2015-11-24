@@ -19,12 +19,13 @@ def rho(P):
 	return 0.73*P + 0.123
 def Re(P,u,D):
 	return rho(P)*u * D/ny
-"""def Temp(T_sea,T0,D,U,m,Cp,x):
+def Temp(T_sea,T0,D,U,m,Cp,x):
 	return T_sea + (T0-T_sea)*np.exp(-np.pi*D*U*x/(m*Cp))
+"""
 T_sea = 7 +273
 T0 = 150 + 273
-U1 = 1
-U2 = 1
+U1 = 9
+U2 = 20
 Cp = 2000
 m = [30,25,20,17,14]
 x2 = np.linspace(0,50000,50001)
@@ -41,25 +42,29 @@ for i in m:
 
 ax.legend(["Q=%d " %(2*b) for b in m ])
 plt.show()
+
+"""
+"""
+print 30/((0.73*360+0.123)*np.pi*(0.127**2)/4)
+print 60/((0.73*345+0.123)*np.pi*(0.305**2)/4)
 """
 def constant(x):
 	return 50
-const = np.linspace(1,30,31)
-const[:] = 50
-P_start = 360 
+const = np.linspace(1,30,30)
+const[1:] = 50
+P_start = 360
 i = 0
 p2 = P_start
-while p2 > 20:
-	i += 1
-	del_p1 = pressure_calculator_1(P=P_start,D=d1,u=2,h=h1,l=l1)/10**6
-	p1 = P_start - del_p1 + 50
-	pressure_array[i-1] = p1
-	del_p2 = pressure_calculator_1(P=p1,D=d2,u=2,h=h2,l=l2)/10**6
+while p2 > 40:
+	i+=1
+	del_p1 = pressure_calculator_1(P=P_start,D=d1,u=9,h=h1,l=l1)/10**6
+	p1 = P_start - del_p1 
+	pressure_array[i] = p1
+	del_p2 = pressure_calculator_1(P=p1,D=d2,u=3.5,h=h2,l=l2)/10**6
 	p2 = p1 - del_p2
 	pressure_array[i] = p2
 	
 	P_start = P_start - 15
-	
 	print "Year: ",i, "---", "Pressure topside: ", p2
 #print i
 #print pressure_array
@@ -67,6 +72,7 @@ while p2 > 20:
 
 plt.plot(pressure_array)
 plt.plot(const,'r')
+plt.axis([1, 30, 0, 400])
 plt.title(" Pressure onshore vs time")
 plt.xlabel("Time[years]")
 plt.ylabel("Pressure[bar]")

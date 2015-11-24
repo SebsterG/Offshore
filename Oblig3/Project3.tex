@@ -19,6 +19,7 @@
 \usepackage{lastpage} % Used to determine the number of pages in the document (for "Page X of Total")
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{amsmath}
 %\graphicspath{ {Triplex MDH 140 C} }
  
  
@@ -53,7 +54,7 @@
 
 \pretitle{\vspace{-30pt} \begin{flushleft} \HorRule \fontsize{50}{50} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont} % Horizontal rule before the title
 
-\title{Mandatory Project 3} % Your article title
+\title{Project 3} % Your article title
 
 \posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
 
@@ -93,6 +94,16 @@ University of Oslo % Your institution
 \begin{figure}[h]
 \includegraphics[width=9cm,height=8cm]{Pressure_years.png}
 \end{figure}
+All of the pressures have been calculated using velocity = 9 m/s in the well. Which I calculated:
+\begin{align*}
+u =& \frac{Q}{\rho S}  \\  
+u =& \frac{30}{(0.73*360+0.123)\pi*0.127^2/4}\\
+u =& 9.007
+\end{align*}
+And in the flowline I have used a velocity of 3.5 m/s. Calculated in a similar fashion.
+I have estimated a pressure decrease of 15 bars per year in the reservoir
+\subsection*{a)}
+As we see from the plot of pressure onshore vs years. We are above the minimum pressure of 50 bars until about 21 years. From the plot we see that the pressure decreases linearly every year of production.
 \subsection*{b)}
 As we can see from the plot we will need to install pressure support after about 21 years.
 \subsection*{c)}
@@ -101,6 +112,10 @@ The liquid is neglected since the GOR is large. So we have mainly gas in our pip
 Also the liquid that is in the well will be more dense, and therefore give more pressure drop than only gas.
 \subsection*{d)}
 To improve the calculations. We could use a different approximation for the friction factor. The Darcy - Weisbach factor has a discontinuity when moving from laminar to turbulent flow. (But we never reach Reynolds numbers under 2300, so it should be okay). 
+\newline
+The fact that we use constant pressure and density in the well and flowline. Is very unrealistic. Again setting the viscosity constant, is unrealistic.
+\newline
+The fact that we calculated in 1D leaves out possible changes due to the geometry of the line.
 \subsection*{f)}
 If we choose to install a compressor subsea, we will run into these problems:
 \begin{itemize}
@@ -116,21 +131,16 @@ Installing a compressor subsea is a difficult task but will ultimately bring man
 \item Installing anything subsea is always a very difficult task. Just getting electricity down many thousands of meters can be a difficult task. Though it will use less electricity than a topside compressor. Maintenance also becomes a problem subsea. It has to be done by an ROV. While maintenance is much easier onshore.
 \item Placing compressors on the seabed is a new invention. The Åsgard field by Statoil will be the first to have it. This makes it an unsafe investment, and could have many problems. Making it possibly unreliable.
 \end{itemize}
-- Electricity to subsea compressor, no problem topside
-- More difficult to install subsea, and maintenance 
-- Higher and longer production with subsea
-- Closer the compressor is to the well, the more effective.
-- Subsea compressor is a new invention. May be unreliable
+
 
 \subsection*{h)}
 \begin{figure}[h]
 \includegraphics[width=9cm,height=8cm]{Pressure_compressor.png}
 \end{figure}
-We can see from the figure when we have a compressor with an extra 50 bar from the start we can extend the production by 3-4 years. Installing the compressor from the start will give us more production and it also will not give us any down time if we have to install the compressor at a later stage in the production. 
+We can see from the figure when we have a compressor with an extra 50 bar from the start we can extend the production by 3-4 years. Installing the compressor from the start will give us more production and it also will not give us any down time if we have to install the compressor at a later stage in the production. Installing from start with all the
+\newline
+One could argue that installing a compressor from the start would give a higher production in the first years and than production could be stopped at an earlier stage. Simply because all of the hydrocarbons have been produced. The line in the graph of production vs years would be higher and shorter so to speak.
 
-
-
-- Down time while installing compressor, not if installed from start
 \newpage
 \section*{2}
 Issues in the flow will be:
@@ -154,7 +164,7 @@ The hydrates can be dealt with be adding chemicals to the flow, to stop the hydr
 \newline
 If we have a subsea compressor, this will increase the temperature, and will hopefully prevent hydrates from forming. 
 \newline
-The hydrates can be prevented from happening if we can avoid low temperatures. This can be done by have sufficiently insulation in the flow line.
+The hydrates can be prevented from happening if we can avoid low temperatures. This can be done by having sufficiently insulation in the flow line.
 \subsection*{c)}
 In the flowline we will hit temperatures and pressures under WAT. So that wax will form in the flowline. When wax starts to form and the circumference of the line begins to lessen, giving us less fluid flux and therefore less production. We will need to pig the line. Where we start with a smaller pig and increasing the size, so to get all of the wax out from the line. It is also possible to use steam to remove the wax, though this is an expensive venture.
 Since we have a high GOR, the WAT can be manipulated through separation in the line.
@@ -172,7 +182,10 @@ It is also possible to add chemicals, like salt solution or alcohol, so that we 
 \end{figure}
 \subsection*{a)}
 We see in the figure that when we lower the heat transfer coefficient, which means that the pipe will be more insulated in some way, that we hold a higher temperature. With higher temperature the fluid will be over the hydrate forming domain, so that hydrates will not form. The same with the wax. With higher temperatures we see from the wax appearance curve that wax will not appear.
-
+\newline
+This plot is just for the flowline, but i put a Uvalue of 1 in the well also. Though this is maybe a bit strange since isolating the well is not really necessary. The well from the reservoir is already a bit isolated from the ground.
+\subsection*{b)}
+Picture of the phase envelope has been added. The points are of onshore pressure and temperature.
 \section*{5}
 In general vibrations are caused by rapid changes in pressure, which again is caused by changes in density. Since we assume constant density reservoir to well, vibration will not be a huge problem.
 \newline
@@ -191,14 +204,7 @@ Vibrations may occur at connection spots. And with many connection points and co
 \item Power. All subsea processing needs power. The amount of power needed will be different for each system. Regardless the power lines need to be watertight. 
 \item Monitoring. Many parameters in the flow needs to be monitored. Including, pressure, temperature, sand detection and vibration.
 \end{itemize}
-- Boosting/ Compression , multiphase? Gas or oil, if gas compression, if oil pump? Liquid tolerance
-- Separation, putting water right back
-- Cooling, how hot is the HC
-- Flow assurance
-- Power
-- Multiphase pump
-- Length to tieback
-- Monitoring
+
 
 \section*{6}
 A subsea x-mas tree is the device that sits on top of the well head, where the hydrocarbons flow from the reservoir. It is basically used to control the flow coming from the reservoir. I have added a picture of a x-mas tree which is not for subsea, but it clearly shows the properties of a x-mas tree. The subsea x-mas tree has the same functions and some additional functions. The x-mas tree in the yellow color is a subsea x-mas tree. It is not so easy to spot the functions. The main functions are
@@ -213,35 +219,10 @@ A subsea x-mas tree is the device that sits on top of the well head, where the h
 \end{itemize}
 
 
-Main function of a subsea flow tree:
-- Control flow of oil and gas out of the well
-- Control injection in an old field
-- chemical injection
-- monitoring(such as pressure, temperature, corrosion, erosion, sand detection, flow rate, flow composition, valve ,choke position feedback)
-- pressure relief
-- react to sensors from the well 
-- Wellhead and tree are not the same, tree is on top of wellhead
-- Many valves
-- Shutdown of valves(hydraulics maybe) in case of emergency(failsafe needs power to stay open)
 \begin{figure}[h]
 \includegraphics[width=9cm,height=8.5cm]{xmas_tree_diagram.png}
 \includegraphics[width=9cm,height=8.5cm]{Ocean_Flow_Subsea_Tree_002.JPG}
 \end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
