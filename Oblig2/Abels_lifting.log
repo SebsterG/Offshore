@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.10)  20 OCT 2015 18:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.10)  1 DEC 2015 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -539,19 +539,16 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <13> not available
 <Triplex_MDH_140.jpg, id=15, 722.7pt x 382.5492pt>
 File: Triplex_MDH_140.jpg Graphic file (type jpg)
  <use Triplex_MDH_140.jpg>
-Package pdftex.def Info: Triplex_MDH_140.jpg used on input line 116.
+Package pdftex.def Info: Triplex_MDH_140.jpg used on input line 120.
 (pdftex.def)             Requested size: 256.06956pt x 256.08481pt.
 
-Overfull \hbox (12.10793pt too wide) in paragraph at lines 116--117
+Overfull \hbox (12.10793pt too wide) in paragraph at lines 120--121
 [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [2 <./Triplex_MDH_140.jpg>]
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 127.
-LaTeX Font Info:    Try loading font information for U+msa on input line 127.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 135.
+LaTeX Font Info:    Try loading font information for U+msa on input line 135.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -559,7 +556,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 127.
+LaTeX Font Info:    Try loading font information for U+msb on input line 135.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -567,23 +564,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 <velocity_plot.jpg, id=19, 815.045pt x 614.295pt>
 File: velocity_plot.jpg Graphic file (type jpg)
  <use velocity_plot.jpg>
-Package pdftex.def Info: velocity_plot.jpg used on input line 137.
+Package pdftex.def Info: velocity_plot.jpg used on input line 145.
 (pdftex.def)             Requested size: 298.75125pt x 284.52878pt.
 
-Overfull \hbox (54.78961pt too wide) in paragraph at lines 137--138
+Overfull \hbox (54.78961pt too wide) in paragraph at lines 145--146
 [][] 
  []
 
 [3 <./velocity_plot.jpg>]
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 182.
+               before end of `thebibliography' environment on input line 190.
 
 
-Overfull \hbox (19.53325pt too wide) in paragraph at lines 180--182
+Overfull \hbox (19.53325pt too wide) in paragraph at lines 188--190
  \OT1/cmr/m/n/12 (-20) http://www.triplex.no/site/view/mdh[]140[]ahts 
  []
 
@@ -596,13 +596,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9465 strings out of 495028
- 147686 string characters out of 6181497
- 384508 words of memory out of 5000000
+ 9471 strings out of 495028
+ 147732 string characters out of 6181497
+ 383508 words of memory out of 5000000
  12441 multiletter control sequences out of 15000+600000
- 22878 words of font info for 91 fonts, out of 8000000 for 9000
+ 23025 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,12n,47p,800b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,12n,47p,800b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
@@ -617,7 +617,7 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on Abels_lifting.pdf (4 pages, 432163 bytes).
+Output written on Abels_lifting.pdf (4 pages, 433506 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

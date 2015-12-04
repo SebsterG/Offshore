@@ -97,11 +97,11 @@ University of Oslo % Your institution
 In this operation we need only a crane vessel, which will also serve as a transportation vessel. By only using one vessel we will save money and time. But it will need to be carefully planned in regards to deck space and lift out. The vessel we recommend is the Triplex MDH 140. Specs
 \begin{itemize}
 \item Handles anchors of 120 tons
-\item Large deck space that can take all 16 anchors 
+\item Large deck space 
 \item Launches a torpedo from anywhere on deck in 5 minutes
 \item Handles rough weather
 \end{itemize}
-The crane will be used to load the torpedoes side by side parallel to the direction of travel. We will get 10 of the torpedoes on the floor of the deck. The additional 6 will be stacked with 3 on each side on top of the others. Leaving the middle with only one in height. This arrangement is done so to have a easy load out period. Where we start from the middle anchor and work our way out. 
+To have enough deck space and to be safe, we will need to make the trip twice. Since the torpedoes need long chains, we need to account for the deck space needed for these chains. Each chain will be fastened to each torpedo before we leave keyside, and the chains will lay next to the each torpedo.
 \newline
 The second part of the operation will be to practice the lift out from the vessel into the water. As this is a crucial part of the operation where many errors can occur. When we lift an anchor weighing 50 tons from the floor of a vessel, the shift in the vessels balance may seriously be compromised. This fact and the dynamic forces of the waves and weather, will make this a delicate procedure. It is also good to check that the winch works as intended. 
 \newline
@@ -111,11 +111,19 @@ I therefore strongly recommend that a short amount of time is used on a practice
 
 \subsection*{Transportation}
 The vessel we are using for transportation has been carefully calculated to withstand the force of 800 tons of steel. The vessel will also be searched for cracks and other damages, to ensure the safety of crew and gear. The torpedoes will be layed down side by side, and some on top of each other and strapped to the deck with chain and hooks. Since they are laying down on the deck, the vessel will more or less stable and can endure quite a bit of weather. But when we are to lift out and drop the torpedoes the vessel will be more unstable and a maximum wind profile cannot be overdone. We will use a weather simulating program, and a worst case scenario will be evaluated. We therefore need to plan in accordance with the weather forecasts when the operation will take place. 
+\begin{itemize}
+\item We have used a CFD calculation. Which provides a mesh of the ship and sea. This has been used to estimate how much weather our operation can withstand. During numerical tests we ran several different wave profiles to see how the ship reacted. We can from this calculate the speed and force at which the ship moves responding to an incident wave.
+\item We then know what kind of weather the operation can withstand, and we have added a safety factor so to not getting any bad suprises.
+\end{itemize}
 \subsection*{Lifting from deck}
 \begin{figure}[h]
 \includegraphics[width=9cm,height=9cm]{Triplex_MDH_140.jpg}
 \end{figure}
 Since we practiced this part at key side. We have hopefully gained some knowledge and skill. As we see in the picture the torpedoes are laying side by side with front and back facing forward and aft. The crane will pick them up starting in the middle and working outward. The boat is put in position (by GPS) and the torpedoes are hooked up to the winch in the front part of the deck. The crane pulls the torpedo all the way back, and then the winch lets the torpedoes slide out the back. At this point where the torpedoes are in the water, we can only tolerate so much weather. Because the stresses on the wires that holds the torpedoes will become big if the boat starts moving too much. Since the torpedoes have to move the surrounding water. 
+\begin{itemize}
+\item When releasing a torpedo with 300 m of chains, things can go wrong. So as to make this as safe as possible we have an additional boat the holds the chain and lets some of it out. Then when we release the torpedo, it is free to fall and hit the seabed. After this we just tighten up the chain and fasten. 
+\item So we might have 400 m of chain so to reach the other boat and back to our vessel.
+\end{itemize}
 \subsection*{Splash and drop}
 
 We now enter a critical face of the operation. When we introduce objects to the water we experience hydrodynamical forces. We will use a time domain analysis, to calculate the worst case effects. These effects will be determined mostly by the frequency and amplitude of the waves. In this operation we have a vessel with a very nice mechanism to deliver the torpedoes to the water. This means that we can handle some weather. Meaning we can save time and money by not having to wait for the perfect weather conditions.
